@@ -2,6 +2,7 @@ package com.example.chaintechdemo.navigation
 
 sealed class Screens(val route : String){
 
+    object HomeScreen : Screens("home")
     object DashboardScreen : Screens("dashboard")
 
 
